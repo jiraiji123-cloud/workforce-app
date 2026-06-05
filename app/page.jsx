@@ -48,7 +48,9 @@ export default async function Home() {
   return (
     <div style={{ fontFamily: 'sans-serif', padding: '40px', maxWidth: '600px', margin: '0 auto' }}>
       <h1>Workforce Entry System</h1>
-      
+      <a href="/status" style={{ color: '#0070f3', textDecoration: 'none', fontWeight: 'bold' }}>
+        View Company Dashboard Status Report →
+      </a>
       {/* Entry Form */}
       <form action={handleAddEmployee} style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginBottom: '40px', background: '#f9f9f9', padding: '20px', borderRadius: '8px', border: '1px solid #eee' }}>
         <h3>Add New Employee Details</h3>
